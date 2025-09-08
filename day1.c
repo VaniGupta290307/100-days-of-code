@@ -8,7 +8,7 @@
   difference=num1-num2;
   product=num1*num2;
   quotient=num1/num2;
-  printf(" sum =%d, difference =%d, product = %d ,quotient = %d" ,&sum,&difference,&product,&quotient");
+  printf(" sum =%d, difference =%d, product = %d ,quotient = %d" ,sum,difference,product,quotient");
   return 0;
 }         
       
