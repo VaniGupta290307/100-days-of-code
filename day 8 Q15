@@ -1,0 +1,22 @@
+#include<stdio.h>
+int main()
+{
+    char character;
+    printf("entered value is :");
+    scanf("%c",&character);
+    if(character>'A' && character<'Z')
+    {
+        printf("entered value is upercase alphabet");
+    }
+    else if(character >'a' && character <'z')
+    {
+        printf("entered value is lowercase alphabet");
+    }
+    else if(character >'1' && character <'9')
+    {
+        printf("entered value is digit");
+    }
+    else
+    printf("entered value is special character");
+    return 0;
+}
